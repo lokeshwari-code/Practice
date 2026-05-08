@@ -1,0 +1,17 @@
+# Ignore Python virtual environment files and caches
+Include/
+Lib/
+Scripts/
+etc/
+share/
+pyvenv.cfg
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Allow project files and dataset files
+!Iris.ipynb
+!irisdataset.csv
+!database.sqlite
+
